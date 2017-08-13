@@ -1,0 +1,15 @@
+def add(a,b){
+	return a+b;
+}
+        		
+def getSomeNumber(a,b){
+	return a+b+2;
+}
+
+def prepareToLog(msg){
+	return '[' + flow.name + ' : ' + flowVars.requestUUID + ']' + msg;
+}
+
+def prepareMailSubject(subject, level){
+	return level + ': ' + subject;
+}
